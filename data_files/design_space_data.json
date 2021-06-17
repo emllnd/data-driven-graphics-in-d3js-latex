@@ -1,0 +1,381 @@
+{
+	"dimensions": [
+		{
+			"name": "playspace",
+			"values": [
+				"Trampoline",
+				"ClimbingWall",
+				"FloorSmallUnder25m2",
+				"FloorLargeOver25m2",
+				"InflatableSlide",
+				"Table"
+			]
+		},
+		{
+			"name": "display",
+			"values": [
+				"Projector",
+				"Television"
+			]
+		},
+		{
+			"name": "sensors",
+			"values": [
+				"OnBody",
+				"InEquipment",
+				"InEnvironment"
+			]
+		},
+		{
+			"name": "physicalInterplayParallel",
+			"values": [
+				"Knowing",
+				"Comparing",
+				"Matching"
+			]
+		},
+		{
+			"name": "physicalInterplayInterdependent",
+			"values": [
+				"SharedObject",
+				"SharedSpace",
+				"SharedBody"
+			]
+		},
+		{
+			"name": "virtualInterplayParallel",
+			"values": [
+				"Knowing",
+				"Comparing",
+				"Matching"
+			]
+		},
+		{
+			"name": "virtualInterplayInterdependent",
+			"values": [
+				"SharedObject",
+				"SharedSpace",
+				"SharedBody"
+			]
+		},
+		{
+			"name": "playmode",
+			"values": [
+				"Adversarial",
+				"Cooperative"
+			]
+		}
+	],
+
+
+
+	"projects": [
+		{
+			"citekey": "Mueller2014a",
+			"genre": "Fighter",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"virtualInterplayParallelComparing",
+				"virtualInterplayInterdependentSharedSpace",
+				"virtualInterplayInterdependentSharedBody",
+				"playmodeAdversarial"
+			],
+			"label": "RemoteImpact"
+		},
+		{
+			"citekey": "Jensen2016",
+			"genre": "Sports",
+			"dimensionvalues": [
+				"playspaceFloorLargeOver25m2",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"physicalInterplayInterdependentSharedObject",
+				"physicalInterplayInterdependentSharedSpace",
+				"virtualInterplayParallelComparing",
+				"playmodeAdversarial"
+			],
+			"label": "TheBouncerHandball"
+		},
+		{
+			"citekey": "Vapaakallio2020",
+			"genre": "Puzzle",
+			"dimensionvalues": [
+				"playspaceFloorLargeOver25m2",
+				"playspaceClimbingWall",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"physicalInterplayInterdependentSharedSpace",
+				"virtualInterplayInterdependentSharedObject",
+				"playmodeCooperative"
+			],
+			"label": "Shadowlings_ClimbAndGuide"
+		},
+		{
+			"citekey": "Lehtonen2019",
+			"genre": "Fighter",
+			"dimensionvalues": [
+				"playspaceTrampoline",
+				"displayTelevision",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelKnowing",
+				"virtualInterplayParallelComparing",
+				"virtualInterplayInterdependentSharedSpace",
+				"virtualInterplayInterdependentSharedBody",
+				"playmodeAdversarial"
+			],
+			"label": "TrampolineStomp"
+		},
+		{
+			"citekey": "Mueller2007",
+			"genre": "Sports",
+			"dimensionvalues": [
+				"playspaceTable",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"virtualInterplayInterdependentSharedObject",
+				"virtualInterplayParallelComparing",
+				"playmodeAdversarial"
+			],
+			"label": "TableTennisForThree"
+		},
+		{
+			"citekey": "Mueller2003",
+			"genre": "Sports",
+			"dimensionvalues": [
+				"playspaceFloorLargeOver25m2",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"virtualInterplayInterdependentSharedObject",
+				"virtualInterplayParallelComparing",
+				"playmodeAdversarial"
+			],
+			"label": "BreakoutForTwo"
+		},
+		{
+			"citekey": "Mueller2006",
+			"genre": "Sports",
+			"dimensionvalues": [
+				"playspaceTable",
+				"displayProjector",
+				"sensorsInEquipment",
+				"physicalInterplayInterdependentSharedObject",
+				"virtualInterplayInterdependentSharedObject",
+				"virtualInterplayParallelComparing",
+				"playmodeAdversarial"
+			],
+			"label": "AirhockeyOverDistance"
+		},
+		{
+			"citekey": "Marshall2016a",
+			"genre": "Fighter",
+			"dimensionvalues": [
+				"playspaceFloorLargeOver25m2",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayInterdependentSharedSpace",
+				"physicalInterplayInterdependentSharedBody",
+				"physicalInterplayParallelComparing",
+				"virtualInterplayParallelComparing",
+				"playmodeAdversarial"
+			],
+			"label": "BalanceOfPower/Bundle"
+		},
+		{
+			"citekey": "Sato2015",
+			"genre": "Action",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"virtualInterplayParallelComparing",
+				"virtualInterplayInterdependentSharedObject",
+				"playmodeCooperative"
+			],
+			"label": "LiveGameDesignCollectPickups"
+		},
+		{
+			"citekey": "Zhou2019",
+			"genre": "Music/Rhythm",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"displayTelevision",
+				"sensorsOnBody",
+				"playmodeCooperative"
+			],
+			"label": "Astaire_VR/NonVR_PairDance"
+		},
+		{
+			"citekey": "Isbister2016a",
+			"genre": "Music/Rhythm",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"displayTelevision",
+				"sensorsOnBody",
+				"playmodeAdversarial"
+			],
+			"label": "Yamove!"
+		},
+		{
+			"citekey": "Toprak2012",
+			"genre": "Action",
+			"dimensionvalues": [
+				"playspaceFloorLargeOver25m2",
+				"displayProjector",
+				"sensorsOnBody",
+				"sensorsInEnvironment",
+				"physicalInterplayInterdependentSharedSpace",
+				"physicalInterplayInterdependentSharedBody",
+				"virtualInterplayParallelComparing",
+				"playmodeAdversarial"
+			],
+			"label": "BubblePopper"
+		},
+		{
+			"citekey": "Moreno2015",
+			"genre": "Action",
+			"dimensionvalues": [
+				"playspaceFloorLargeOver25m2",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayInterdependentSharedSpace",
+				"physicalInterplayParallelComparing",
+				"virtualInterplayInterdependentSharedBody",
+				"playmodeAdversarial"
+			],
+			"label": "AugmentedTag"
+		},
+		{
+			"citekey": "MartinNiedecken2018",
+			"genre": "Racing/Speed",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelMatching",
+				"physicalInterplayInterdependentSharedSpace",
+				"physicalInterplayInterdependentSharedObject",
+				"virtualInterplayInterdependentSharedObject",
+				"playmodeCooperative"
+			],
+			"label": "PlunderPlanet_FlyShip"
+		},
+		{
+			"citekey": "MartinNiedecken2019a",
+			"genre": "Racing/Speed",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"displayProjector",
+				"sensorsOnBody",
+				"physicalInterplayInterdependentSharedSpace",
+				"physicalInterplayInterdependentSharedBody",
+				"physicalInterplayParallelMatching",
+				"virtualInterplayInterdependentSharedObject",
+				"playmodeAdversarial",
+				"playmodeCooperative"
+			],
+			"label": "ExercubeExplorations"
+		},
+		{
+			"citekey": "Graf2019",
+			"genre": "Sports",
+			"dimensionvalues": [
+				"playspaceFloorLargeOver25m2",
+				"displayProjector",
+				"sensorsInEquipment",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"physicalInterplayInterdependentSharedSpace",
+				"virtualInterplayParallelComparing",
+				"virtualInterplayInterdependentSharedObject",
+				"playmodeAdversarial"
+			],
+			"label": "iGYM_OverheadProjectionAirHockey"
+		},
+		{
+			"citekey": "Alavesa2015",
+			"genre": "Racing/Speed",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"displayTelevision",
+				"displayProjector",
+				"sensorsOnBody",
+				"physicalInterplayParallelMatching",
+				"virtualInterplayParallelMatching",
+				"virtualInterplayInterdependentSharedBody",
+				"playmodeCooperative"
+			],
+			"label": "AirTandem"
+		},
+		{
+			"citekey": "Obiorah2017",
+			"genre": "Action",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"sensorsInEnvironment",
+				"displayTelevision",
+				"displayProjector",
+				"physicalInterplayParallelKnowing",
+				"physicalInterplayParallelComparing",
+				"virtualInterplayParallelComparing",
+				"playmodeCooperative",
+				"playmodeAdversarial"
+			],
+			"label": "JumpGym"
+		},
+		{
+			"citekey": "Rebane2019",
+			"genre": "Sports",
+			"dimensionvalues": [
+				"playspaceFloorLargeOver25m2",
+				"displayProjector",
+				"sensorsInEquipment",
+				"physicalInterplayParallelComparing",
+				"physicalInterplayInterdependentSharedObject",
+				"physicalInterplayInterdependentSharedSpace",
+				"virtualInterplayParallelComparing",
+				"playmodeAdversarial"
+			],
+			"label": "AugmentedDodgeball"
+		},
+		{
+			"citekey": "Greenberg2011",
+			"genre": "Sports",
+			"dimensionvalues": [
+				"playspaceFloorSmallUnder25m2",
+				"displayTelevision",
+				"sensorsOnBody",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"physicalInterplayInterdependentSharedSpace",
+				"virtualInterplayInterdependentSharedObject",
+				"playmodeAdversarial"
+			],
+			"label": "ProxemicPong"
+		},
+		{
+			"citekey": "Castaner2016",
+			"genre": "Action",
+			"dimensionvalues": [
+				"playspaceInflatableSlide",
+				"displayProjector",
+				"sensorsInEnvironment",
+				"physicalInterplayParallelComparing",
+				"physicalInterplayInterdependentSharedSpace",
+				"virtualInterplayParallelComparing",
+				"virtualInterplayInterdependentSharedObject",
+				"playmodeCooperative"
+			],
+			"label": "Balloons_InteractiveSlide"
+		}
+	]
+}
+
+
